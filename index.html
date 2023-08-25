@@ -3,53 +3,108 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link rel="stylesheet" href="/dist/output.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Eventnity</title>
   </head>
   <body>
-    <div id="app">
-      <header class="mx-16">
-        <div class="flex justify-between">
-          <a class="p-4" href="">Eventnity</a>
-          <div class="flex content-center">
-            <nav class="flex content-center" >
-              <a class="p-4" href="">Home</a>
-              <a class="p-4" href="">Pricing</a>
-              <a class="p-4" href="">Event</a>
-              <a class="p-4" href="">Resources</a>
-              <a class="p-4" href="">Helpdesk</a>
+    <div id="app" class="">
+      <header
+        id=""
+        class="grid-cols-12-gap-x-[32px] max-width-screen-xl grid w-full px-[30px]"
+      >
+        <div class="col-span-1 bg-blue-500 flex flex-wrap content-center">
+          <a href="" class="h-auto">Eventnity</a>
+        </div>
+        <div class="col-start-5 col-end-12 bg-blue-500">
+          <div class="grid-col-8-gap-x-[32px] grid bg-yellow-500">
+            <nav
+              class="col-start-1 col-end-5 flex h-[57px] flex-wrap content-center"
+            >
+              <a href="" class="">Home</a>
+              <a href="" class="">Pricing</a>
+              <a href="" class="">Event</a>
+              <a href="" class="">Resources</a>
+              <a href="" class="">Helpdesk</a>
             </nav>
-            <ul class="flex">
-              <li><button class="p-4">Login</button></li>
-              <li><button class="p-4">Register</button></li>
-            </ul>
+            <div class="col-start-6 col-end-8 bg-red-500 flex flex-wrap content-center">
+              <button>Login</button>
+              <button>Register</button>
+            </div>
           </div>
         </div>
       </header>
       <main>
-        <section class="mx-16 h-screen bg-purple-800 relative rounded-3xl">
-          <img src="/images/Rectangle 1.png" alt="" class="w-full h-full absolute mix-blend-multiply object-cover">
-          <div class="p-24 w-1/2 absolute">
-          <p class="text-white py-4">Hi, Welcome to our ticketing website!</p>
-          <h1 class="text-white py-4 text-6xl font-extrabold">Where Your Event Dreams Come to Life!</h1>
-          <p class="text-white py-4">Not only can you purchase tickets to the hottest events in town, but you can also create your own custom tickets with our easy-to-use platform. Say goodbye to generic tickets and hello to personalized and professional-looking ones that will make your event stand out from the rest.</p>
+        <section
+          id="hero"
+          class="grid-cols-12-gap-x-[32px] max-width-screen-xl relative mx-auto grid w-full px-[30px]"
+        >
+          <div class="col-span-12">
+            <img
+              src="/images/hero-about.png"
+              alt="hero-about"
+              class="h-[692px] w-full"
+            />
+          </div>
+          <div class="absolute col-start-1 mx-[52px] my-[120px] max-w-[667px]">
+            <p class="max-w-[385px] text-white">
+              Hi, Welcome to our ticketing website!
+            </p>
+            <h1 class="py-[34px] text-7xl font-bold text-white">
+              Where Your <span class="text-[#6D28D9]">Event</span> Dreams Come
+              to Life!
+            </h1>
+            <p class="h-[140px] max-w-[601px] text-white">
+              Not only can you purchase tickets to the hottest events in town,
+              but you can also create your own custom tickets with our
+              easy-to-use platform. Say goodbye to generic tickets and hello to
+              personalized and professional-looking ones that will make your
+              event stand out from the rest.
+            </p>
+          </div>
+          <div>
+            <button
+              class="absolute right-[560px] top-[651px] rounded-[14px] bg-[#070148] px-[30px] py-[15px] text-white"
+            >
+              Explore Event
+            </button>
           </div>
         </section>
-        <section>
-          <h1>About Eventnity</h1>
-          <p>Evenity is event management expertise that helps and facilitates Event Planners in achieving the goal of carrying out an event.</p>
-          <button>More About Us</button>
+        <section
+          id="about"
+          class="grid-cols-12-gap-x-[32px] max-width-screen-xl mx-auto w-full px-[30px] flex"
+        >
+          <div class="bg-red-500">
+            <h1 class="text-[64px] font-semibold">About Eventnity</h1>
+            <p class="text-[28px]">
+              Evenity is event management expertise that helps and facilitates
+              Event Planners in achieving the goal of carrying out an event.
+            </p>
+            <button
+              class="rounded-[14px] bg-[#070148] px-[30px] py-[15px] text-white"
+            >
+              More About Us
+            </button>
+          </div>
+          <div class="w-full bg-yellow-500">
+            <h1>test</h1>
+            <img src="" alt="" />
+          </div>
         </section>
-        <section>
-          <h1>Explore Beautiful Venues</h1>
-
+        <section
+          id="venue"
+          class="grid-cols-12-gap-x-[32px] max-width-screen-xl mx-auto grid w-full px-[30px]"
+        >
+          <div class="h-[432px] w-[524px] bg-purple-500">
+            <h1 class="w-full text-[96px] font-semibold">
+              Explore Beautiful Venues
+            </h1>
+            <img src="/images/venue-1.png" alt="venue-1" class="w-[438px] h-[675px]">
+          </div>
+          <div></div>
         </section>
-        <section>
-          <h1>RECAP EVENT 2022</h1>
-        </section>
-        <section></section>
-        <section></section>
+        <section id="event"></section>
+        <section id="schedule"></section>
+        <section id="partner"></section>
       </main>
       <footer></footer>
     </div>

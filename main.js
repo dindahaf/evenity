@@ -1,3 +1,3 @@
-import './dist/output.css'
+import './style.css'
 
 
