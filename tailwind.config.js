@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        1: ['Fredoka'],
-        2: ['Rubik'],
-        3: ['Inter']
+        fredoka: ['Fredoka'],
+        rubik: ['Rubik'],
+        inter: ['Inter']
       }
     },
     plugins: []
